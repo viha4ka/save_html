@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Личный кабинет студента</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /><!-- IE -->
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" /><!-- other browsers -->
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width" />
+
+				
+		<script>
+	window.LANG_ID = 1;
+	</script>
+	
+	<link rel="stylesheet" href="/public/themes/frontend/css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="/public/themes/frontend/css/fancySelect.css" type="text/css" />
+	<link rel="stylesheet" href="/public/themes/frontend/css/style.css?v2" type="text/css" />
+	<link rel="stylesheet" href="/public/themes/frontend/css/jquery-ui.min.css" type="text/css" />
+
+	<link rel="stylesheet" href="/public/themes/frontend/css/os.css" type="text/css" />
+	<link rel="stylesheet" href="/public/themes/frontend/css/os_condensed.css" type="text/css" />
+
+	<script src="/public/themes/frontend/js/jquery-1.11.0.min.js"></script>
+	<script src="/public/themes/frontend/js/jquery-ui.min.js"></script>
+	<script src="/public/themes/frontend/js/fancySelect.js"></script>
+	<script src="/public/themes/frontend/js/device.min.js"></script>
+	<script src="/public/themes/frontend/js/site.js?v1"></script>
+	<script src="/public/themes/frontend/js/hideShowPassword.js"></script>
+
+	<link rel="stylesheet" href="/public/themes/frontend/css/tablet.css" type="text/css" />
+	<script src="/public/themes/frontend/js/jquery.ui.touch-punch.min.js"></script>
+	<script src="/public/themes/frontend/js/hammer.js"></script>
+
+	<script src="/public/themes/general/js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<link rel="stylesheet" href="/public/themes/general/libs/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script src="/public/themes/general/libs/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<link rel="stylesheet" href="/public/themes/frontend/css/frontend.css?v2" type="text/css" />
+	<script src="/public/themes/general/js/jquery.mask.min.js"></script>
+	<script src="/public/themes/general/js/apps.js?v1"></script>
+	<script src="/public/themes/general/js/site.js?v1"></script>
+	<script src="/public/themes/frontend/js/frontend.js?v1"></script>
+
+				
+		
+	<!--[if IE]>
+	<script>
+	document.createElement('header');
+	document.createElement('nav');
+	document.createElement('section');
+	document.createElement('article');
+	document.createElement('aside');
+	document.createElement('footer');
+	</script>
+	<link href="/public/themes/frontend/css/ie-fix.css" type="text/css" rel="stylesheet" />
+	<![endif]-->
+</head>
+<body >
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WHN5KK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHN5KK');</script>
+<!-- End Google Tag Manager -->
+
+
+<div id="breakumbs">
+	<div class="wrapper">
+		<a href="http://urfu.ru/" title="Портал УрФУ" class="home">Портал УрФУ</a><span class="dopbre"><span>&rarr;</span>
+		<a href="/" title="Личный кабинет">Личный кабинет</a> 
+		</span>
+
+		<div class="lang_select"><!-- открытие - класс open -->
+							<div class="curr_lang"><div id="curr_lang" class="lang_rus"></div></div>			<div class="other_lang">
+														<div class="lang_cont"><a href="/?userlang_code=en" title="English" class="lang_gb"></a></div>						</div>
+		</div>
+	</div>
+</div>
+
+<div class="pagewrapper">
+<div class="content">
+	<aside class="">
+	<div class="logo">
+		<a href="/" title="Личный кабинет студента УРФУ">
+			<img src="/public/themes/frontend/img/logo1.png" width="146" height="63" alt="УРФУ" />
+		</a>
+	</div>
+
+				
+		<ul class="asidemenu">
+				<li><a href="/services/ucheba/" title="Учеба" class="">Учеба</a>
+					</li>
+				<li><a href="/services/nauka/" title="Наука" class="">Наука</a>
+					</li>
+				<li><a href="/services/vneuchebnaya-zhizn/" title="Внеучебная жизнь" class="">Внеучебная жизнь</a>
+					</li>
+				<li><a href="/services/kampus/" title="Кампус" class="">Кампус</a>
+					</li>
+				<li><a href="/services/dokumenty-i-finansy/" title="Документы и финансы" class="">Документы и финансы</a>
+					</li>
+				<li><a href="/services/portfolio/" title="Портфолио" class="">Портфолио</a>
+					</li>
+			</ul>
+	
+	<ul class="dopmenu">
+		<li><a href="/widgets/" title="Все виджеты" >Все виджеты</a></li>
+													<li><a href="/help/" title="Помощь"  >Помощь</a></li>
+										</ul>
+
+	<div class="search-wrapper">
+		<form method="get" action="/search/">
+			<input value="" class="header-search-input" type="text" placeholder="Поиск" name="q" />
+			<input class="header-search-button" type="submit" value="Найти" />
+		</form>
+	</div>
+
+	</aside>
+	<div class="cont">
+					<div class="user enter"><!-- шапка на ПК-->
+			<a class="js-auth-window-link button enter"  href="/auth/" title="Войти в личный кабинет">Вход</a>
+		</div>
+		<div class="mobile_user"><!-- шапка мобильного-->
+			<div class=""><a href="/" class="logo750" style=""></a></div>
+			<div class="mobile_user_r_block"><a class="js-auth-window-link button enter" href="/auth/" title="Вход" >Вход</a></div>
+			<div class="mobile_user_l_block"><a href="#" class="burger"></a></div>
+		</div>
+	
+		<article>
+			<h1>Личный кабинет студента</h1>
+
+															
+									<div>Уважаемые студенты!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+<div>В соответствии с <a href="http://urfu.ru/fileadmin/user_upload/urfu.ru/documents/coronavirus/local/Prikaz_po_osnovnoi___dejatelnosti_No_0655_03_ot_18.08.2020__O_nachale_novogo_2020-2021_uchebnogo_goda___2072066_v2_.PDF" target="_blank">приказом ректора №655/03 от 18.08.2020 &ldquo;О начале нового 2020-2021 учебного года&rdquo;</a> лекционные курсы предполагается проводить в дистанционном формате на платформе Microsoft Teams.</div>
+
+<div>Для реализации возможности вашего участия в таких лекциях при помощи сервиса Microsoft Teams, пожалуйста, ознакомьтесь с краткой&nbsp;<a href="https://dit.urfu.ru/fileadmin/user_upload/site_15560/Pamjatka_dlja_studentov_po_ispolzovaniju_Microsoft_Teams.pdf" target="_blank"><strong>памяткой для студентов</strong>&nbsp;<strong>по использованию&nbsp;</strong><strong>Microsoft Teams</strong>&nbsp;</a></div>
+
+<div>&nbsp;</div>
+										
+			
+							<div class="maincenterheader"><strong class="orange"><span class="orangein"><span>Мы вам рекомендуем</span></span></strong></div>
+
+				<div class="service_recomended"><!--
+									--><div class="servise-category"><div class="servise-category-inner">
+						<a href="/s/schedule/"  title="Расписание занятий">
+															<img src="/public/images/resizecrop/161x129/cm/public-uploaded-services-icons-c9-5f-ff-c95fffaaa325864f190f64a63897f0b9.png" alt="Расписание занятий" />
+														<strong>Расписание занятий</strong>
+							<span>Синхронизация в формате iCalendar. Ссылки на виртуальные комнаты и трансляции занятий из аудиторий.</span>
+						</a>
+					</div></div><!--
+									--><div class="servise-category"><div class="servise-category-inner">
+						<a href="/s/spravka-o-stipendii-i-prochih-dohodah-obuchayusheg/" target="_blank" title="Лекции в Microsoft Teams">
+															<img src="/public/images/resizecrop/161x129/cm/public-uploaded-services-icons-7b-8d-af-7b8dafe866a26f8ec5b5055cbd159902.png" alt="Лекции в Microsoft Teams" />
+														<strong>Лекции в Microsoft Teams</strong>
+							<span>Microsoft Teams – это облачный сервис, который является частью платформы
+Office365 (новое название – Microsoft 365) и позволяет организовать онлайн обучение,
+совместную работу и взаимодействие между студентами и преподавателями.</span>
+						</a>
+					</div></div><!--
+									--><div class="servise-category"><div class="servise-category-inner">
+						<a href="/s/moodle/" target="_blank" title="Портал электронного обучения на базе Moodle">
+															<img src="/public/images/resizecrop/161x129/cm/public-uploaded-services-icons-c9-5f-ff-c95fffaaa325864f190f64a63897f0b9.png" alt="Портал электронного обучения на базе Moodle" />
+														<strong>Портал электронного обучения на базе Moodle</strong>
+							<span>Система электронного обучения на базе Moodle</span>
+						</a>
+					</div></div><!--
+									--><div class="servise-category"><div class="servise-category-inner">
+						<a href="/s/itogovoe-testirovanie-na-openedu-ru/" target="_blank" title="Онлайн-курсы на openedu.ru">
+															<img src="/public/images/resizecrop/161x129/cm/public-uploaded-services-icons-7b-8d-af-7b8dafe866a26f8ec5b5055cbd159902.png" alt="Онлайн-курсы на openedu.ru" />
+														<strong>Онлайн-курсы на openedu.ru</strong>
+							<span>В этом разделе расположена памятка о прохождении онлайн-курсов на платформе openedu.ru, в том числе по итоговому тестированию.</span>
+						</a>
+					</div></div><!--
+									--><div class="servise-category"><div class="servise-category-inner">
+						<a href="/s/gipermetod/" target="_blank" title="ГИПЕРМЕТОД">
+															<img src="/public/images/resizecrop/161x129/cm/public-uploaded-services-icons-07-14-48-071448f40485db81a213da86873a8473.png" alt="ГИПЕРМЕТОД" />
+														<strong>ГИПЕРМЕТОД</strong>
+							<span>Система электронного обучения на платформе Гиперметод.</span>
+						</a>
+					</div></div><!--
+								--></div>
+			
+						<div class="main-bottom-text">
+				<h2 style="text-align: center; margin-bottom: 22px;">Категории сервисов</h2>
+
+<div class="all_category">
+<div class="servise-category">
+<div class="servise-category-inner"><a href="/services/ucheba/"><img alt="" src="/public/content/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0.png" /> <strong>Учеба</strong> </a></div>
+</div><!--
+	--><div class="servise-category">
+<div class="servise-category-inner"><a href="/services/nauka/"><img alt="" src="/public/content/%D0%9D%D0%B0%D1%83%D0%BA%D0%B0.png" /> <strong>Наука</strong></a></div>
+</div><!--
+	--><div class="servise-category">
+<div class="servise-category-inner"><a href="/services/vneuchebnaya-zhizn/"><img alt="" src="/public/content/%D0%92%D0%BD%D0%B5%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%20%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C.png" /> <strong>Внеучебная жизнь</strong> </a></div>
+</div><!--
+	--><div class="servise-category">
+<div class="servise-category-inner"><a href="/services/kampus/"><img alt="" src="/public/content/%D0%9A%D0%B0%D0%BC%D0%BF%D1%83%D1%81.png" /> <strong>Кампус</strong> </a></div>
+</div><!--
+	--><div class="servise-category">
+<div class="servise-category-inner"><a href="/services/dokumenty-i-finansy/"><img alt="" src="/public/content/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B.png" /> <strong>Документы и финансы</strong> </a></div>
+</div><!--
+	--><div class="servise-category">
+<div class="servise-category-inner"><a href="/services/portfolio/"><img alt="" src="/public/content/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.png" /> <strong>Портфолио</strong> </a></div>
+</div>
+</div>
+			</div>
+					</article>
+	</div>	
+</div>
+
+</div>
+<div class="footer-wrap">
+	<footer>
+		<div class="section footer">
+			<div class="row">
+				<div class="col">
+					<p class="copyright"><span class="sign">©</span>
+						ФГАОУ ВО «УрФУ имени первого Президента России Б.Н. Ельцина»
+					</p>
+
+					<p class="text-error">
+						Увидели ошибку?<br />выделите фрагмент и нажмите:<br />
+						<span class="mark">Ctrl</span>&nbsp;+&nbsp;<span class="mark">Enter</span>
+						<a href="http://orphus.ru/" id="orphus" target="_blank" title="Система Orphus"><img alt="Система Orphus" src="/public/themes/frontend/img/clear.gif" width="125" height="115" /></a>
+						<script src="/public/themes/frontend/js/orphus.js"></script>
+					</p>
+				</div>
+				<div class="col phones">
+					<p class="bodytext">Контакт-центр:</p>
+					<p class="big">8-800-100-50-44</p>
+					<p class="bodytext">Звонок по России бесплатный</p>
+					<p class="big">+7 (343) 375-44-44</p>
+					<p class="bodytext">Телефон в Екатеринбурге</p>
+					<p class="more"><a href="#" data-show="layer_phones" class="dashed">Телефоны служб <i class="icon-triangle-down"></i></a></p>
+				</div>
+				<div class="col">
+					<div class="social">
+						<p>Мы в социальных сетях:</p>
+						<!--noindex-->
+						<ul>
+							<li><a href="http://vkontakte.ru/public22941070" target="_blank"><i class="icon-vk"></i>Вконтакте</a></li>
+							<li><a href="http://www.youtube.com/user/stvTVIST" target="_blank"><i class="icon-yt"></i>YouTube</a></li>
+							<li><a href="http://www.facebook.com/ural.federal.university" target="_blank"><i class="icon-fb"></i>Facebook</a></li>
+							<li><a href="http://twitter.com/urfu" target="_blank"><i class="icon-tw"></i>Twitter</a></li>
+							<li><a href="http://instagram.com/urfu.ru" target="_blank"><i class="icon-instagram"></i>Instagram</a></li>
+							<li><a href="https://plus.google.com/u/0/b/117620875850573784488/117620875850573784488/posts" target="_blank"><i class="icon-google-plus"></i>Google +</a></li>
+						</ul>
+						<!--/noindex-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</footer>
+</div>
+
+
+<div id="layer_phones" class="layer" style="display:none;">
+	<div class="layer-phones">
+		<div class="layer-in">
+			<a class="layer-close" href="#">
+				<img alt="x" src="/public/themes/frontend/img/layer_close.png" width="15" height="14" />
+			</a>
+			<p class="layer-title">Телефоны служб</p>
+			<div class="phone-group">
+				<p class="title">Приемная комиссия</p>
+				<p class="bodytext">+7 (343) 375-44-74</p>
+				<p class="bodytext">620002, Екатеринбург,</p>
+				<p class="bodytext">ул. Мира, 19, каб. ГУК-100</p>
+			</div>
+			<div class="phone-group">
+				<p class="title">Корреспонденция ректору</p>
+				<p class="bodytext">+7 (343) 375-45-07, 375-46-09</p>
+				<p class="bodytext">375-97-78 (факс)</p>
+				<p class="bodytext"><a href="mailto:rector@urfu.ru" title="Открывается окно почтовой программы для отправки email">Написать письмо</a></p>
+			</div>
+			<div class="phone-group">
+				<p class="title">Редакция портала</p>
+				<p class="bodytext"><a href="mailto:site@urfu.ru" title="Открывается окно почтовой программы для отправки email">Написать письмо</a></p>
+			</div>
+			<div class="phone-group">
+				<p class="title">Пресс-служба</p>
+				<p class="bodytext">+7 (343) 375-97-33</p>
+				<p class="bodytext"><a href="mailto:info@urfu.ru" title="Открывается окно почтовой программы для отправки email">Написать письмо</a></p>
+			</div>
+			<div class="phone-group">
+				<p class="title">Служба технической поддержки</p>
+				<p class="bodytext">+7 (343) 227-20-70</p>
+				<p class="bodytext"><a href="mailto:support@urfu.ru" title="Открывается окно почтовой программы для отправки email">Написать письмо</a></p>
+				<p class="bodytext"><a href="http://dit.urfu.ru/servisy/formy-onlain-obrashchenii/onlain-request/" title="Внешняя ссылка открывается в новом окне" target="_blank">Онлайн обращения</a></p>
+				<p class="bodytext"><a href="http://dit.urfu.ru/" title="Дирекция информационных технологий" target="_top">Перейти на сайт</a></p>
+			</div>
+			<div class="phone-group">
+				<p class="title">Медиацентр</p>
+				<p class="bodytext">+7 (343) 350-74-64</p>
+				<p class="bodytext">+7 (343) 374-40-93</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="shadow-layer" style="display:none;"></div>
+<div class="explanation-text"><div class="explanationclose"></div><span class="js-explanation-text"></span></div>
+<div class="explanation-text-its"><span class="js-explanation-text"></span></div>
+
+</body>
+</html>
